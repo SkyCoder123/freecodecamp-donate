@@ -4,12 +4,12 @@
 <title>
 Donate to freeCodeCamp
 </title>
-<link href="index.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet"> 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 </head>
 <body>
 <div class="header main>
-<img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="FCC logo">
+<img src="#" alt="FCC logo">
 <span class="c2">freeCodeCamp</span>
 <nav>
 <span class="hidden>---</span>
@@ -19,10 +19,25 @@ Back to
 </a>
 </nav>
   <h1>Donate</h1>
+  <div>
+      <span class="c3"><button class="c4">$10</button></span>
+      <span class="c3"><button class="c4">$20</button></span>
+      <br>
+   <span class="c3"><button class="c4">$50</button></span>
+      <span class="c3"><button class="c4">$250</button></span>
+      <span>$
+      <input class="c5" type="tel" name="cd" onclick="var customDonation = true; console.log(customDonation);">
+      </span>
+  </div>
   <button id="stripe"><a>Stripe</a></button>
+  
   <span onmouseover="alert('Pay using credit/debit card using Stripe.');"><i class="fa fa-info-circle"></i></span>
+  
    <button id="paypal"><a>PayPal</a></button>
   <span onmouseover="alert('Pay using PayPal.');"><i class="fa fa-info-circle"></i></span>
+  <br>
+  <button id="donate">Donate!</button>
   </body>
 </html>
+
 
