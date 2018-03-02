@@ -1,0 +1,30 @@
+body {
+font-family: 'Mukta Malar', sans-serif;
+color: white;
+background-color: green;
+}
+.c2 {
+    font-family: monospace;
+}
+.c4 {
+    background-color: blue;
+    font-family: 'Mukta Mular', sans-serif;
+}
+button {
+    height: 40px;
+    width: 60px;
+}
+.c5{
+    width: 60px;
+    height: 40px;
+    background-color: gold;
+}
+.link {
+    text-decoration: none;
+}
+#stripe, #paypal {
+    background-color: pink;
+}
+#donate {
+    background-color: aquamarine;
+}
