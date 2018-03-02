@@ -5,3 +5,6 @@ My own idea of a brand-new freeCodeCamp donate page.
 - [x] index.html
 - [x] index.css
 - [x] OFFICIAL.md
+- [x] LICENSE.md
+
+:)
